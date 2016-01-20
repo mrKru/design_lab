@@ -1,0 +1,287 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	-webkit-box-sizing: border-box;
+}	
+.header {
+	height: 100vh;
+	background: url("images/design_lab.jpg");
+	background-size: cover;
+	color: #fff;
+}
+.content {
+	width: 45%;
+	height: 55%;
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+	text-align: center;
+}
+.title, .text_header {
+	text-transform: uppercase;
+}
+.title {
+	font-size: 3em;
+	font-weight: normal;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.text_title {
+	
+}
+.text_header {
+	line-height: 1.2em;
+}
+.logotype {
+	padding-bottom: 50px;
+}
+.button {
+	padding-top: 60px;
+}
+.block_one {
+	padding: 120px 0px 120px;
+}
+.block_two {
+	height: 75vh;
+	background: url("images/design-lab_main.jpg");
+	background-size: cover;
+	color: #fff;
+	padding: 120px 0px 120px;
+}
+.block_three {
+	padding: 120px 0px 120px;
+}
+.block_fourh {
+	height: 65vh;
+} 
+.main {
+	max-width: 900px;
+	text-align: center;
+	position: relative;	
+	margin: auto;
+	border-bottom: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+.main_second {
+	max-width: 900px;
+	text-align: center;
+	position: relative;	
+	margin: auto;
+	border-bottom: 2px solid #fff;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+.main_three {
+	max-width: 900px;
+	text-align: center;
+	position: relative;	
+	margin: auto;
+	border-bottom: 2px solid #000;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+.about_us {
+	margin: auto;
+	padding-top: 70px;
+	text-align: center;	
+}
+.what_we_do {
+	margin: auto;
+	padding-top: 70px;
+	text-align: center;	
+}
+.services {
+	margin: auto;
+	padding-top: 70px;
+	text-align: center;	
+}
+.contact_us {
+	margin: auto;
+	padding-top: 70px;
+	text-align: center;
+}
+.contact_us_block {
+	padding-top: 70px;
+}
+.left {
+	height: 2px;
+	width: 30%;
+	background-color: #000;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.right {
+	height: 2px;
+	width: 30%;
+	background-color: #000;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.left_second {
+	height: 2px;
+	width: 30%;
+	background-color: #fff;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.right_second {
+	height: 2px;
+	width: 30%;
+	background-color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.about_us_title, .what_we_do_title, .services_title, .contact_us_title {
+	width: 75%;
+	margin: auto;
+	text-transform: uppercase;
+	margin-top: -90px;
+}
+.contact_us_button button {
+	width: 50%;
+	height: 60px;
+	margin-bottom: 40px;
+	background: #3c3c3c;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.icon_title {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #3c3c3c;
+	padding-bottom: 20px;
+}
+.text_main {
+	padding-top: 50px;
+}
+.block_three .text_main {
+	padding-top: 130px;
+}
+.text {
+	font-size: 15px;
+	line-height: 30px;
+	padding: 0px 0px 50px;
+	color: #3c3c3c;
+}
+.text_white {
+	font-size: 15px;
+	line-height: 30px;
+	padding: 0px 0px 50px;
+	color: #fff;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+.text_image {
+	text-transform: uppercase;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 1.5em;
+}
+.topworkz {
+	width: 29%;
+    height: 195px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    background: url("images/topworkz.jpg");
+    background-size: cover;
+    float: left;
+    opacity: 0.6;
+
+}
+.joint {
+	width: 38%;
+    height: 195px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    background: url("images/joint.jpg");
+    background-size: cover;
+    float: left;
+    opacity: 0.6;
+}
+.market {
+	width: 31.5%;
+    height: 195px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    position: relative;
+    background: url("images/market.jpg");
+    background-size: cover;
+    float: left;
+    opacity: 0.6;
+}
+.worktop {
+	width: 29%;
+    height: 195px;
+    margin-right: 5px;
+    margin-top: 5px;
+    position: relative;
+    background: url("images/worktop.jpg");
+    background-size: cover;
+    float: left;
+    opacity: 0.6;
+}
+.lable {
+	width: 38%;
+    height: 195px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    position: relative;
+    background: url("images/lable.jpg");
+    background-size: cover;
+    float: left;
+    opacity: 0.6;
+}
+.kyiv {
+	width: 31.5%;
+    height: 195px;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: relative;
+    background: url("images/kyiv.jpg");
+    background-size: cover;
+    float: left;
+    opacity: 0.6;
+}
+.hover:hover {
+	opacity: 1;
+}
+.footer {
+	width: 50%;
+	margin: auto;
+	padding-top: 80px;
+	text-align: center;
+}
+.copy {
+	color: #3c3c3c;
+}
+.logotype_footer, .copy {
+	display: inline-block;
+	vertical-align: middle;
+}
+@media screen and (max-width: 700px) {
+	.hover {
+	width: 48.5%;
+	}
+	.block_fourh {
+		width: 90%;
+		margin: auto;
+	}
+}	
